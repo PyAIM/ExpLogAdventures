@@ -18,8 +18,8 @@ export function AudioProvider({ children }: { children: ReactNode }) {
   
   useEffect(() => {
     // Initialize audio elements with local files
-    menuAudioRef.current = new Audio("/gameintro.mp3");
-    gameAudioRef.current = new Audio("/gametime.mp3");
+    menuAudioRef.current = new Audio("/ExpLogAdventures/gameintro.mp3");
+    gameAudioRef.current = new Audio("/ExpLogAdventures/gametime.mp3");
     
     // Set loop and volume
     if (menuAudioRef.current) {
